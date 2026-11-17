@@ -3,28 +3,28 @@
 class Netpace < Formula
   desc "Network speed tester with server discovery, latency, download and upload tests"
   homepage "https://github.com/FrankRay78/NetPace"
-  version "0.28.0"
+  version "0.29.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/FrankRay78/NetPace/releases/download/0.28.0/netpace-0.28.0-osx-x64-aot.tar.gz"
-      sha256 "39b80be6ea0d1135a0b02ed99c09d46c385922d9655322885f1eec650d22e4eb"
+      url "https://github.com/FrankRay78/NetPace/releases/download/0.29.0/netpace-0.29.0-osx-x64-aot.tar.gz"
+      sha256 "4957503130baa2a6d2584aa87177f0179ab2b9a23df611547bad52e63bd5086d"
     end
     on_arm do
-      url "https://github.com/FrankRay78/NetPace/releases/download/0.28.0/netpace-0.28.0-osx-arm64-aot.tar.gz"
-      sha256 "3a59f7deddde6b4fc942a22560cdb27c94a97f1bbe3ae7378ca1cf5e5eb066d3"
+      url "https://github.com/FrankRay78/NetPace/releases/download/0.29.0/netpace-0.29.0-osx-arm64-aot.tar.gz"
+      sha256 "ed5bf5afa196cff90f04a082564ea57c5bd8230f3f790786742c657fd72ee184"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/FrankRay78/NetPace/releases/download/0.28.0/netpace-0.28.0-linux-x64-aot.tar.gz"
-      sha256 "bc8485b6dbcd45c352a4daf5f8cc94e7610ce98a801af113028911b23fd00ff6"
+      url "https://github.com/FrankRay78/NetPace/releases/download/0.29.0/netpace-0.29.0-linux-x64-aot.tar.gz"
+      sha256 "2b5b11bb495ce8a34a843c64a2c0e508085303c923deb3d441cff05f717c99d5"
     end
     on_arm do
-      url "https://github.com/FrankRay78/NetPace/releases/download/0.28.0/netpace-0.28.0-linux-arm64-aot.tar.gz"
-      sha256 "e7f4e566464da4fe26bba25ff9b55ab354674a8c1871ea4700acf8d7237da48b"
+      url "https://github.com/FrankRay78/NetPace/releases/download/0.29.0/netpace-0.29.0-linux-arm64-aot.tar.gz"
+      sha256 "d2c08053f77c86381ceedf4d2a5a350e8b2cf1db97261a755664ece0b103e316"
     end
   end
 
